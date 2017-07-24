@@ -32,7 +32,7 @@ button1Click$.skipUntil(mqttConnect$).first().subscribe (event) ->
 
 # example for a simple counter
 circleBottomClick$ = Rx.Observable.fromEvent(circleBottom,"click")
-circleBottomClick$.startWith(0).scan( (count) -> (count = count + 1) % 10)
+circleBottomClick$.throttleTime(200).startWith(0).scan( (count) -> (count = count + 1) % 10)
 	.subscribe (val) ->
 		circleText.html =
 			'<span style="text-align:center; font-size:14pt;">'+val+'</span>'

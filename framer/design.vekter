@@ -491,7 +491,7 @@
                 "x" : 0,
                 "color" : "rgba(0,0,0,0.25)",
                 "enabled" : false,
-                "y" : 2,
+                "y" : 0,
                 "__class" : "BoxShadow",
                 "inset" : false,
                 "blur" : 5
@@ -502,17 +502,17 @@
             "bottom" : 18,
             "height" : 66,
             "fillGradient" : {
-              "end" : "rgba(0,0,0,0)",
+              "end" : "rgba(61, 143, 184, 0.37)",
               "alpha" : 1,
-              "angle" : 0,
+              "angle" : 315,
               "__class" : "LinearGradient",
-              "start" : "black"
+              "start" : "rgb(5, 141, 209)"
             },
             "width" : 66,
             "widthFactor" : null,
             "targetName" : "circleBottom",
             "heightFactor" : null,
-            "fillColor" : "rgba(0,170,255,0.5)",
+            "fillColor" : "rgba(38, 156, 207, 0.85)",
             "borderColor" : "#222",
             "centerAnchorY" : 0.9102112676056338,
             "opacity" : 1,
