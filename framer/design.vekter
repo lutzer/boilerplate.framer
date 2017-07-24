@@ -161,7 +161,7 @@
             "name" : "button1",
             "height" : 45,
             "borderWidth" : 1,
-            "top" : 142,
+            "top" : 122,
             "borderTop" : 1,
             "radiusTopRight" : 10,
             "borderBottom" : 1,
@@ -169,7 +169,7 @@
             "constraintsLocked" : false,
             "right" : 41,
             "radiusPerCorner" : false,
-            "centerAnchorY" : 0.289612676056338,
+            "centerAnchorY" : 0.2544014084507042,
             "visible" : true,
             "borderLeft" : 1,
             "heightFactor" : null,
@@ -354,7 +354,7 @@
             ],
             "constraintsLocked" : false,
             "left" : null,
-            "bottom" : 78,
+            "bottom" : 128,
             "height" : 160,
             "fillGradient" : {
               "end" : "rgba(0,0,0,0)",
@@ -369,17 +369,162 @@
             "heightFactor" : null,
             "fillColor" : "rgba(255, 0, 0, 0.5)",
             "borderColor" : "#222",
-            "centerAnchorY" : 0.721830985915493,
-            "opacity" : 0,
+            "centerAnchorY" : 0.6338028169014085,
+            "opacity" : 0.18,
+            "visible" : true,
+            "clip" : false
+          },
+          {
+            "__class" : "OvalNode",
+            "fillType" : "color",
+            "locked" : false,
+            "centerAnchorX" : 0.5,
+            "parentid" : "RoTjU&((",
+            "rotation" : 0,
+            "fillEnabled" : true,
+            "top" : null,
+            "borderWidth" : 1,
+            "right" : null,
+            "borderEnabled" : false,
+            "children" : [
+              {
+                "__class" : "TextNode",
+                "locked" : false,
+                "centerAnchorX" : 0.5,
+                "parentid" : "<O}o_e;c",
+                "rotation" : 0,
+                "top" : null,
+                "right" : null,
+                "styledText" : {
+                  "blocks" : [
+                    {
+                      "depth" : 0,
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 1,
+                          "style" : "LETTERSPACING:0",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 1,
+                          "style" : "LINEHEIGHT:1.2",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 1,
+                          "style" : "ALIGN:center",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 1,
+                          "style" : "COLOR:rgb(255, 255, 255)",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 1,
+                          "style" : "FONT:HelveticaNeue-Bold",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 1,
+                          "style" : "SIZE:14",
+                          "offset" : 0
+                        }
+                      ],
+                      "entityRanges" : [
+
+                      ],
+                      "data" : {
+                        "emptyStyle" : [
+                          "LETTERSPACING:0",
+                          "LINEHEIGHT:1.2",
+                          "ALIGN:center",
+                          "COLOR:rgb(255, 255, 255)",
+                          "FONT:HelveticaNeue-Bold",
+                          "SIZE:14"
+                        ]
+                      },
+                      "text" : " ",
+                      "key" : "d0b8e",
+                      "type" : "unstyled"
+                    }
+                  ],
+                  "__class" : "StyledTextDraft",
+                  "entityMap" : {
+
+                  }
+                },
+                "name" : "circleText",
+                "shadows" : [
+                  {
+                    "y" : 2,
+                    "enabled" : false,
+                    "blur" : 5,
+                    "x" : 0,
+                    "__class" : "Shadow",
+                    "color" : "rgba(0,0,0,0.25)"
+                  }
+                ],
+                "id" : ")*<b4lNo",
+                "x" : 33,
+                "constraintsLocked" : false,
+                "left" : null,
+                "bottom" : null,
+                "height" : 32,
+                "opacity" : 1,
+                "width" : 5,
+                "widthFactor" : null,
+                "targetName" : "circleText",
+                "heightFactor" : null,
+                "editable" : false,
+                "visible" : true,
+                "centerAnchorY" : 0.5,
+                "autoSize" : true,
+                "y" : 18
+              }
+            ],
+            "name" : "circleBottom",
+            "aspectRatioLocked" : true,
+            "id" : "<O}o_e;c",
+            "boxShadows" : [
+              {
+                "x" : 0,
+                "color" : "rgba(0,0,0,0.25)",
+                "enabled" : false,
+                "y" : 2,
+                "__class" : "BoxShadow",
+                "inset" : false,
+                "blur" : 5
+              }
+            ],
+            "constraintsLocked" : false,
+            "left" : null,
+            "bottom" : 18,
+            "height" : 66,
+            "fillGradient" : {
+              "end" : "rgba(0,0,0,0)",
+              "alpha" : 1,
+              "angle" : 0,
+              "__class" : "LinearGradient",
+              "start" : "black"
+            },
+            "width" : 66,
+            "widthFactor" : null,
+            "targetName" : "circleBottom",
+            "heightFactor" : null,
+            "fillColor" : "rgba(0,170,255,0.5)",
+            "borderColor" : "#222",
+            "centerAnchorY" : 0.9102112676056338,
+            "opacity" : 1,
             "visible" : true,
             "clip" : false
           }
         ],
         "height" : 568,
         "fillType" : "color",
-        "targetName" : null,
+        "targetName" : "board1",
         "fillColor" : "#ffffff",
-        "name" : null
+        "name" : "board1"
       }
     ]
   }
