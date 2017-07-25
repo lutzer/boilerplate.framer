@@ -29,11 +29,15 @@ mqttMessage$.subscribe (data) ->
 	console.log "received"
 	console.log data.message
 	footer.animate("show")
+	Utils.delay 2.0, ->
+		footer.animate("default")
 			
-# only allow the button to be clicked once when mqtt is connected
+# only allow the button to be clicked once mqtt is connected
 button1Click$ = Rx.Observable.fromEvent(button1,"click")
-button1Click$.skipUntil(mqttConnect$).first().subscribe (event) ->
+mqttConnect$.flatMap( (event) -> return button1Click$ ).subscribe (event) ->
 	mqttClient.publish "sometopic", "Hello MQTT"
+	console.log("publish")
+	button1.rotation = 0
 	button1.animate
 		rotation: 360
 		animationOptions:
