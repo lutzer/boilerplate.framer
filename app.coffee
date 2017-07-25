@@ -25,7 +25,6 @@ mqttConnect$.subscribe (event) ->
 
 # create observable from mqtt message event and apply selector
 mqttMessage$ = Rx.Observable.fromEvent mqttClient, "message", (topic, message) -> { topic: topic, message: message.toString() }
-	
 mqttMessage$.subscribe (data) ->
 	console.log "received"
 	console.log data.message
