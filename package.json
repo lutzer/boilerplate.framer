@@ -3,14 +3,34 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": "https://github.com/lutzer/boilerplate.framer.git",
   "dependencies": {
+    "framerjs": "https://github.com/koenbok/Framer.git",
     "mqtt": "^2.9.2",
     "rxjs": "^5.4.2",
     "underscore": "^1.8.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "coffee-loader": "^0.7.3",
+    "coffee-script": "^1.12.7",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.4",
+    "gulp-sketch": "^1.0.5",
+    "gulp-util": "^3.0.8",
+    "harp": "^0.24.0",
+    "html-webpack-plugin": "^2.30.1",
+    "merge-stream": "^1.0.1",
+    "webpack": "^1.12.14",
+    "yargs": "^8.0.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "./postinstall.sh",
+    "start": "gulp",
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "serve": "harp server ./build"
   },
   "author": "",
   "license": "ISC"
