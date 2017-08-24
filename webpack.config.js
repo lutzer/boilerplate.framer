@@ -33,12 +33,12 @@ module.exports = {
   ],
   resolve: {
     root:  [__dirname + '/src/'],
-    modulesDirectories: [__dirname + '/src/modules/'],
+    modulesDirectories: [__dirname + '/src/modules/', __dirname + '/node_modules/'],
     extensions: ['', '.web.coffee', '.web.js', '.coffee', '.js'],
   },
   resolveLoader: {
     modulesDirectories: [
-        __dirname + '/node_modules/',
+        __dirname + '/node_modules/'
     ],
   },
 };

@@ -6,7 +6,6 @@
   "repository": "https://github.com/lutzer/boilerplate.framer.git",
   "dependencies": {
     "framerjs": "https://github.com/koenbok/Framer.git",
-    "mqtt": "^2.9.2",
     "rxjs": "^5.4.2",
     "underscore": "^1.8.3"
   },
